@@ -1,0 +1,52 @@
+.img {
+  width: 100px;
+}
+
+
+.profile{
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+.header{
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: row ;
+  font-size: 15px;
+  padding-left: 10px;
+}
+
+.Text{
+  font-size: .7em;
+}
+
+.fb-post{
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1em;
+}
+
+.btns{
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-between;
+  border: .5px solid black;
+  border-radius: 5px;
+  padding: 10px;
+}
+.btns a{
+  text-decoration:  none;
+  color: black
+}
+
+.main-div{
+  
+  /* border: 1px solid black; */
+  padding: 1%;
+  border-radius: 10px;
+  background-color: rgb(235, 235, 235);
+
+}
